@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1653f50e-d713-45e7-b872-0ba3a8f27239",
+    "name": "Fabrizio Romano",
+    "reliabilityWeight": 0.95
+  },
+  {
+    "id": "10922cd7-cd75-4d3d-b395-708623b60773",
+    "name": "David Ornstein",
+    "reliabilityWeight": 0.98
+  },
+  {
+    "id": "72d30b80-0cdf-4304-9f3e-cebc7fe25e1f",
+    "name": "Gianluca Di Marzio",
+    "reliabilityWeight": 0.85
+  },
+  {
+    "id": "838315aa-5d92-48ed-9701-b740fb392f43",
+    "name": "Florian Plettenberg",
+    "reliabilityWeight": 0.88
+  },
+  {
+    "id": "c50032d5-4e82-486e-86ff-fd923b04ff45",
+    "name": "Matteo Moretto",
+    "reliabilityWeight": 0.8
+  },
+  {
+    "id": "f2fd2769-6041-4b7d-9277-c0aced77d065",
+    "name": "Gerard Romero",
+    "reliabilityWeight": 0.75
+  },
+  {
+    "id": "be7b4dcb-a022-4878-a912-c09a17b0aac1",
+    "name": "Santi Aouna",
+    "reliabilityWeight": 0.7
+  },
+  {
+    "id": "5b2760fa-38fe-43d4-b87b-84b24f18d2ec",
+    "name": "The Athletic Aggregator",
+    "reliabilityWeight": 0.5
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "id": "c6bba107-84c5-4531-8117-f807262193a5",
+    "playerId": "3b32d684-0bf7-4ff9-afc5-f3b7a3cc9175",
+    "fromClubId": "97025f2a-26d9-4e72-879d-b7b92d2365b4",
+    "toClubId": "13c54215-ed56-4c02-9b43-522d4369a30c",
+    "fee": 28000000,
+    "date": "2025-11-25T12:14:02.062Z",
+    "window": "2023-summer"
+  },
+  {
+    "id": "a69808b2-5696-4298-8ccb-3e4ef3b199d8",
+    "playerId": "767ae49e-49c8-4be8-94b9-7cf47a2b78a2",
+    "fromClubId": "7305f863-7f95-413a-93b1-838580ff64aa",
+    "toClubId": "ca5703ff-4316-4f96-a577-8c95a2462c50",
+    "fee": 53000000,
+    "date": "2026-03-30T22:07:41.821Z",
+    "window": "2024-winter"
+  },
+  {
+    "id": "2a43aac5-8d44-4c12-a4ac-38c27fdb9459",
+    "playerId": "2ad28153-9841-4c11-80a6-93953f8db7d8",
+    "fromClubId": "15ba6780-0ab6-43e8-9b7b-e1c076708eb1",
+    "toClubId": "ca5703ff-4316-4f96-a577-8c95a2462c50",
+    "fee": 75000000,
+    "date": "2025-10-17T18:46:36.495Z",
+    "window": "2023-summer"
+  },
+  {
+    "id": "824a15e4-69b4-4345-8432-8f490a927bc0",
+    "playerId": "326c816b-c6d7-47c2-afa5-a1135de129b1",
+    "fromClubId": "13c54215-ed56-4c02-9b43-522d4369a30c",
+    "toClubId": "ca5703ff-4316-4f96-a577-8c95a2462c50",
+    "fee": 88000000,
+    "date": "2025-08-20T14:27:34.868Z",
+    "window": "2024-winter"
+  },
+  {
+    "id": "0f052cb2-a286-4071-9c8e-18e71886cb47",
+    "playerId": "df6588c3-0fe2-4604-94a6-6f6854f71c19",
+    "fromClubId": "79c19359-0a4a-40f3-99c2-564c5aa50bed",
+    "toClubId": "7305f863-7f95-413a-93b1-838580ff64aa",
+    "fee": 66000000,
+    "date": "2026-01-17T10:56:19.609Z",
+    "window": "2023-summer"
+  },
+  {
+    "id": "72cc9f1b-bd90-4c98-ac3e-9e7b6f5428ab",
+    "playerId": "5b871808-887c-4679-87ff-6bd5b562a61a",
+    "fromClubId": "ea249edb-21d0-4a87-95bd-6ed6b540e296",
+    "toClubId": "7305f863-7f95-413a-93b1-838580ff64aa",
+    "fee": 76000000,
+    "date": "2026-03-11T21:25:48.862Z",
+    "window": "2024-winter"
+  },
+  {
+    "id": "1088e8e4-8557-455b-a7d9-1eb5eead1f4e",
+    "playerId": "f720d329-3fe5-41d3-8968-a7f173186fc7",
+    "fromClubId": "e998a0fe-53ee-48df-bb98-3c04e8200cf0",
+    "toClubId": "7305f863-7f95-413a-93b1-838580ff64aa",
+    "fee": 46000000,
+    "date": "2025-08-31T07:55:57.628Z",
+    "window": "2023-summer"
+  },
+  {
+    "id": "349e15a3-a667-4081-9cbf-7201a8c93574",
+    "playerId": "4e77b886-30f0-4aa6-b7b1-d8779b1bdd33",
+    "fromClubId": "e998a0fe-53ee-48df-bb98-3c04e8200cf0",
+    "toClubId": "b9e8f15e-bd85-4196-9820-d62d031216eb",
+    "fee": 29000000,
+    "date": "2025-09-23T11:04:04.041Z",
+    "window": "2024-winter"
+  },
+  {
+    "id": "9026e5be-f191-4528-83e2-43307261bf97",
+    "playerId": "05c3ee84-9ca3-4742-a9fb-6583cdc78fe2",
+    "fromClubId": "c70ea1f5-c4ba-4ad9-8665-6be35d4ef346",
+    "toClubId": "0d2b6a61-7a84-4888-8f9c-10d674868060",
+    "fee": 86000000,
+    "date": "2026-01-07T06:34:33.792Z",
+    "window": "2023-summer"
+  },
+  {
+    "id": "38ea9bd9-1e48-4a6e-b8cc-113a3e068d38",
+    "playerId": "7a278196-b54c-4385-8e17-4638c4223fe5",
+    "fromClubId": "01839a50-7a29-4b5e-89c3-a3c33ada9c5b",
+    "toClubId": "0d2b6a61-7a84-4888-8f9c-10d674868060",
+    "fee": 94000000,
+    "date": "2026-05-10T12:34:11.451Z",
+    "window": "2024-winter"
+  },
+  {
+    "id": "358497ce-29e1-4beb-a96c-d7a97b975434",
+    "playerId": "fbaf8df9-507c-449f-ba91-78bd35b425e4",
+    "fromClubId": "753b2d53-275e-4964-a44a-fcbba204a61c",
+    "toClubId": "ed03bf29-7fe3-40c3-9a05-3e27dcd27253",
+    "fee": 88000000,
+    "date": "2026-05-29T01:12:07.661Z",
+    "window": "2023-summer"
+  },
+  {
+    "id": "21285a98-a66a-4e56-893c-6d4d99406a8f",
+    "playerId": "58e529c3-d584-41d8-89c2-6d9d70115fe0",
+    "fromClubId": "0d2b6a61-7a84-4888-8f9c-10d674868060",
+    "toClubId": "2d382fc2-3570-4ea1-9886-c97726bc67da",
+    "fee": 44000000,
+    "date": "2025-08-11T05:53:07.431Z",
+    "window": "2024-winter"
+  },
+  {
+    "id": "33ee9964-8126-4a67-ac1e-f470bc494ec7",
+    "playerId": "9ad3f749-2bb7-441f-9c20-c94db03049e4",
+    "fromClubId": "a6168645-d8dd-4545-a636-68dd7ddd911e",
+    "toClubId": "1e0fd743-4717-4e36-8775-91fcc3a75ed3",
+    "fee": 55000000,
+    "date": "2026-05-24T10:10:52.146Z",
+    "window": "2023-summer"
+  },
+  {
+    "id": "8b16ff31-c66c-42ec-b6f2-b08b65dff22b",
+    "playerId": "22cd0c75-7e5b-470f-bb54-3097e0892054",
+    "fromClubId": "b9e8f15e-bd85-4196-9820-d62d031216eb",
+    "toClubId": "f4cc2da5-0e65-4620-8f74-d84518967ac8",
+    "fee": 70000000,
+    "date": "2026-03-24T22:32:44.893Z",
+    "window": "2024-winter"
+  },
+  {
+    "id": "9c3791b8-7146-459f-84b5-07386f1676a5",
+    "playerId": "7f7a85b0-91b9-492d-8746-d3aad4b53655",
+    "fromClubId": "2d382fc2-3570-4ea1-9886-c97726bc67da",
+    "toClubId": "f4cc2da5-0e65-4620-8f74-d84518967ac8",
+    "fee": 65000000,
+    "date": "2026-04-22T00:24:27.586Z",
+    "window": "2023-summer"
+  },
+  {
+    "id": "d478f0a1-5a5c-4933-ab73-bc37ee833b1b",
+    "playerId": "65d3a9f9-d1a8-4416-917a-26dadbd41f4a",
+    "fromClubId": "ed03bf29-7fe3-40c3-9a05-3e27dcd27253",
+    "toClubId": "1e0fd743-4717-4e36-8775-91fcc3a75ed3",
+    "fee": 87000000,
+    "date": "2025-09-08T21:01:10.294Z",
+    "window": "2024-winter"
+  },
+  {
+    "id": "585361e6-418d-49c3-b9f7-cf3f42df5303",
+    "playerId": "aabe8c0b-b846-4ea5-8620-d8f7d4deb657",
+    "fromClubId": "ff929f08-3edb-4fe8-a98e-92a19d608996",
+    "toClubId": "753b2d53-275e-4964-a44a-fcbba204a61c",
+    "fee": 81000000,
+    "date": "2026-05-11T14:13:33.922Z",
+    "window": "2023-summer"
+  },
+  {
+    "id": "8f0add4d-a9d2-4be6-9e6f-ba58e2d4d7e3",
+    "playerId": "7b7ce61a-4f85-47a1-8bef-5a7d89b85c21",
+    "fromClubId": "1e0fd743-4717-4e36-8775-91fcc3a75ed3",
+    "toClubId": "753b2d53-275e-4964-a44a-fcbba204a61c",
+    "fee": 50000000,
+    "date": "2026-01-07T19:18:33.865Z",
+    "window": "2024-winter"
+  },
+  {
+    "id": "cbcf652f-0be2-4f7c-9a89-b29ffca4ddbf",
+    "playerId": "6d5f1e26-0f9c-4742-b1ff-086cdaca6254",
+    "fromClubId": "f4cc2da5-0e65-4620-8f74-d84518967ac8",
+    "toClubId": "ca5703ff-4316-4f96-a577-8c95a2462c50",
+    "fee": 38000000,
+    "date": "2025-12-11T13:28:08.784Z",
+    "window": "2023-summer"
+  },
+  {
+    "id": "af8963a5-496b-473d-97e1-89043d9d0e02",
+    "playerId": "c532dca4-c3af-4daf-84de-a61fe47a33c2",
+    "fromClubId": "97025f2a-26d9-4e72-879d-b7b92d2365b4",
+    "toClubId": "e998a0fe-53ee-48df-bb98-3c04e8200cf0",
+    "fee": 76000000,
+    "date": "2026-03-17T17:10:13.064Z",
+    "window": "2024-winter"
+  },
+  {
+    "id": "84c2a18b-fe32-4077-bdaf-06c3930bce62",
+    "playerId": "eec37310-397e-486b-9b41-4cf87369f771",
+    "fromClubId": "7305f863-7f95-413a-93b1-838580ff64aa",
+    "toClubId": "e998a0fe-53ee-48df-bb98-3c04e8200cf0",
+    "fee": 46000000,
+    "date": "2025-08-15T05:42:43.875Z",
+    "window": "2023-summer"
+  },
+  {
+    "id": "2d0af548-e34e-4ea5-bd47-c97a547fe1a0",
+    "playerId": "f535ef19-f0b1-4c41-b58a-993146171b9c",
+    "fromClubId": "15ba6780-0ab6-43e8-9b7b-e1c076708eb1",
+    "toClubId": "e998a0fe-53ee-48df-bb98-3c04e8200cf0",
+    "fee": 97000000,
+    "date": "2025-10-27T05:04:44.997Z",
+    "window": "2024-winter"
+  },
+  {
+    "id": "c4eb10a8-9ddd-4d68-9599-6156f1e4dada",
+    "playerId": "a2da81d8-d22e-4509-a4cf-ef0aa075c74a",
+    "fromClubId": "13c54215-ed56-4c02-9b43-522d4369a30c",
+    "toClubId": "ea249edb-21d0-4a87-95bd-6ed6b540e296",
+    "fee": 38000000,
+    "date": "2025-11-08T12:14:41.257Z",
+    "window": "2023-summer"
+  },
+  {
+    "id": "9997b5d9-bc03-4bda-94f7-2160f0e218ae",
+    "playerId": "1d030963-2a15-4b81-b188-eb579ffa30fb",
+    "fromClubId": "ca5703ff-4316-4f96-a577-8c95a2462c50",
+    "toClubId": "ea249edb-21d0-4a87-95bd-6ed6b540e296",
+    "fee": 21000000,
+    "date": "2026-05-17T15:43:58.485Z",
+    "window": "2024-winter"
+  },
+  {
+    "id": "893feeea-d13c-44c1-b026-c028a0af4bb3",
+    "playerId": "3928fc05-4884-4f7b-a6e2-1816450c3e4b",
+    "fromClubId": "79c19359-0a4a-40f3-99c2-564c5aa50bed",
+    "toClubId": "ea249edb-21d0-4a87-95bd-6ed6b540e296",
+    "fee": 63000000,
+    "date": "2025-07-16T00:31:25.928Z",
+    "window": "2023-summer"
+  }
+]

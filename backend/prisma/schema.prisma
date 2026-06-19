@@ -1,0 +1,100 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Player {
+  id             String   @id @default(uuid())
+  name           String
+  position       String
+  age            Int
+  nationality    String
+  currentClubId  String
+  currentClub    Club     @relation("PlayerCurrentClub", fields: [currentClubId], references: [id])
+  contractExpiry DateTime
+  marketValue    Int
+  estimatedWage  Int?
+  imageUrl       String?
+  bannerImageUrl String?
+
+  rumors         Rumor[]
+  transfers      TransferRecord[]
+}
+
+model Club {
+  id             String   @id @default(uuid())
+  name           String
+  league         String
+  country        String
+  clubLogoUrl    String?
+  bannerImageUrl String?
+
+  players        Player[] @relation("PlayerCurrentClub")
+  
+  rumorsFrom     Rumor[]  @relation("RumorFromClub")
+  rumorsTo       Rumor[]  @relation("RumorToClub")
+  
+  transfersFrom  TransferRecord[] @relation("TransferFromClub")
+  transfersTo    TransferRecord[] @relation("TransferToClub")
+}
+
+model Source {
+  id                String   @id @default(uuid())
+  name              String
+  outlet            String?   @default("Unknown")
+  reliabilityWeight Float
+  
+  rumorReports      RumorSource[]
+}
+
+enum RumorStatus {
+  RUMOR
+  ADVANCED_TALKS
+  AGREED
+  COMPLETED
+  DENIED
+  DEAD
+}
+
+model Rumor {
+  id          String      @id @default(uuid())
+  playerId    String
+  player      Player      @relation(fields: [playerId], references: [id])
+  fromClubId  String
+  fromClub    Club        @relation("RumorFromClub", fields: [fromClubId], references: [id])
+  toClubId    String
+  toClub      Club        @relation("RumorToClub", fields: [toClubId], references: [id])
+  status          RumorStatus
+  reportedFee     Int?
+  reportedSummary String?
+  createdAt       DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+
+  reports     RumorSource[]
+}
+
+model RumorSource {
+  id         String   @id @default(uuid())
+  rumorId    String
+  rumor      Rumor    @relation(fields: [rumorId], references: [id])
+  sourceId   String
+  source     Source   @relation(fields: [sourceId], references: [id])
+  reportedAt DateTime
+}
+
+model TransferRecord {
+  id         String   @id @default(uuid())
+  playerId   String
+  player     Player   @relation(fields: [playerId], references: [id])
+  fromClubId String
+  fromClub   Club     @relation("TransferFromClub", fields: [fromClubId], references: [id])
+  toClubId   String
+  toClub     Club     @relation("TransferToClub", fields: [toClubId], references: [id])
+  fee        Int
+  date       DateTime
+  window     String
+}

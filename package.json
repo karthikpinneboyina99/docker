@@ -1,0 +1,31 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "description": "A full-stack web application that tracks, aggregates, and scores football transfer rumors. It features an automated scoring engine that quantifies the reliability of journalism sources and computes real-time transfer probabilities, alongside AI-generated narrative summaries.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "install:all": "npm install && npm install --prefix backend && npm install --prefix frontend && npm install --prefix scripts",
+    "seed": "npm run seed --prefix scripts",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev": "concurrently -c \"cyan,magenta\" \"npm run dev:backend\" \"npm run dev:frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthikpinneboyina99/docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/karthikpinneboyina99/docker/issues"
+  },
+  "homepage": "https://github.com/karthikpinneboyina99/docker#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}

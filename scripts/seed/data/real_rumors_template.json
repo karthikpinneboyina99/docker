@@ -1,0 +1,92 @@
+[
+  {
+    "playerName": "Victor Muñoz",
+    "fromClubName": "Osasuna",
+    "toClubName": "Liverpool",
+    "status": "COMPLETED",
+    "reportedFee": 40000000,
+    "reportedSummary": "Liverpool activated the player's release clause and completed a six-year deal.",
+    "createdAt": "2026-06-18T08:00:00Z",
+    "updatedAt": "2026-06-18T15:00:00Z",
+    "reports": [
+      {
+        "sourceName": "Reuters",
+        "sourceOutlet": "Reuters Sports",
+        "reliabilityWeight": 0.99,
+        "reportedAt": "2026-06-18T12:00:00Z"
+      }
+    ]
+  },
+  {
+    "playerName": "Marc Cucurella",
+    "fromClubName": "Chelsea",
+    "toClubName": "Real Madrid",
+    "status": "COMPLETED",
+    "reportedFee": 60000000,
+    "reportedSummary": "Real Madrid officially announced the signing of the Spanish left-back on a long-term contract.",
+    "createdAt": "2026-06-14T09:00:00Z",
+    "updatedAt": "2026-06-14T18:00:00Z",
+    "reports": [
+      {
+        "sourceName": "The Guardian",
+        "sourceOutlet": "The Guardian Football",
+        "reliabilityWeight": 0.95,
+        "reportedAt": "2026-06-14T14:00:00Z"
+      }
+    ]
+  },
+  {
+    "playerName": "Yan Diomande",
+    "fromClubName": "RB Leipzig",
+    "toClubName": "Liverpool",
+    "status": "ADVANCED_TALKS",
+    "reportedFee": 100000000,
+    "reportedSummary": "Liverpool submitted a major offer which was rejected, but negotiations are expected to continue.",
+    "createdAt": "2026-06-18T07:00:00Z",
+    "updatedAt": "2026-06-18T19:00:00Z",
+    "reports": [
+      {
+        "sourceName": "Liverpool Offside",
+        "sourceOutlet": "SB Nation",
+        "reliabilityWeight": 0.75,
+        "reportedAt": "2026-06-18T16:00:00Z"
+      }
+    ]
+  },
+  {
+    "playerName": "Ismael Saibari",
+    "fromClubName": "PSV Eindhoven",
+    "toClubName": "Bayern Munich",
+    "status": "AGREED",
+    "reportedFee": null,
+    "reportedSummary": "Medical reportedly completed and final paperwork remains before official announcement.",
+    "createdAt": "2026-06-17T08:00:00Z",
+    "updatedAt": "2026-06-18T08:00:00Z",
+    "reports": [
+      {
+        "sourceName": "Fabrizio Romano",
+        "sourceOutlet": "X / Transfer Updates",
+        "reliabilityWeight": 0.95,
+        "reportedAt": "2026-06-18T07:00:00Z"
+      }
+    ]
+  },
+  {
+    "playerName": "Nick Pope",
+    "fromClubName": "Newcastle United",
+    "toClubName": "Leeds United",
+    "status": "RUMOR",
+    "reportedFee": 10000000,
+    "reportedSummary": "Leeds United are reported to be leading the race for the experienced goalkeeper.",
+    "createdAt": "2026-06-18T09:00:00Z",
+    "updatedAt": "2026-06-18T09:00:00Z",
+    "reports": [
+      {
+        "sourceName": "Football Insider",
+        "sourceOutlet": "Football Insider",
+        "reliabilityWeight": 0.65,
+        "reportedAt": "2026-06-18T09:00:00Z"
+      }
+    ]
+  }
+]

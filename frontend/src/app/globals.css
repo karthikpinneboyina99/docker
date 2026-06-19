@@ -1,0 +1,133 @@
+@import "tailwindcss";
+
+/* ===========================
+   FOOTTALKS DESIGN SYSTEM
+   Accent: Electric Amber (#f59e0b)
+   Named "trophy gold" — Champions League
+   trophies, football awards, premium kits.
+   =========================== */
+
+@theme inline {
+  /* Backgrounds */
+  --color-ft-bg:          #0a0a0a;
+  --color-ft-surface:     #181818;
+  --color-ft-surface-alt: #222222;
+  --color-ft-border:      #2e2e2e;
+  --color-ft-hover:       #2a2a2a;
+
+  /* Accent — Electric Amber */
+  --color-ft-amber:       #f59e0b;
+  --color-ft-amber-dim:   #92610a;
+  --color-ft-amber-glow:  rgba(245, 158, 11, 0.15);
+
+  /* Text */
+  --color-ft-text:        #e5e5e5;
+  --color-ft-text-muted:  #888888;
+  --color-ft-text-faint:  #555555;
+
+  /* Status badge colors */
+  --color-status-rumor:         #6366f1; /* indigo */
+  --color-status-advanced:      #f59e0b; /* amber */
+  --color-status-agreed:        #10b981; /* emerald */
+  --color-status-completed:     #3b82f6; /* blue */
+  --color-status-denied:        #ef4444; /* red */
+  --color-status-dead:          #6b7280; /* gray */
+
+  /* Typography */
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+/* ===========================
+   GLOBAL BASE
+   =========================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: #e5e5e5;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===========================
+   SCROLLBAR — dark styled
+   =========================== */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #111; }
+::-webkit-scrollbar-thumb { background: #333; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #555; }
+
+/* ===========================
+   HORIZONTAL SCROLL ROW
+   =========================== */
+.ft-scroll-row {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 8px;
+  scrollbar-width: none; /* Firefox */
+}
+.ft-scroll-row::-webkit-scrollbar { display: none; }
+
+.ft-scroll-item {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+
+/* ===========================
+   CARD HOVER SCALE
+   =========================== */
+.ft-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.ft-card:hover {
+  transform: scale(1.03);
+  z-index: 10;
+}
+
+/* ===========================
+   HEADER SCROLL BEHAVIOR
+   (JS sets data-scrolled attr)
+   =========================== */
+#ft-header {
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+}
+#ft-header[data-scrolled="true"] {
+  background-color: rgba(10, 10, 10, 0.97);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid #2e2e2e;
+}
+#ft-header[data-scrolled="false"] {
+  background-color: rgba(10, 10, 10, 0.6);
+  backdrop-filter: blur(4px);
+}
+
+/* ===========================
+   FADE EDGE GRADIENTS (scroll rows)
+   =========================== */
+.ft-fade-left::before,
+.ft-fade-right::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 8px;
+  width: 60px;
+  z-index: 5;
+  pointer-events: none;
+}
+.ft-fade-left::before {
+  left: 0;
+  background: linear-gradient(to right, #0a0a0a, transparent);
+}
+.ft-fade-right::after {
+  right: 0;
+  background: linear-gradient(to left, #0a0a0a, transparent);
+}
